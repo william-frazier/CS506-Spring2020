@@ -50,8 +50,6 @@ git fetch origin
 git rebase origin/master
 ```
 
-
-
 ## Step 4: Rebase
 
 Here is the problem: the code in the master branch has been updated since you
@@ -74,6 +72,7 @@ git log
 You should see that there is now one more commit listed. This is because the
 commit which changed the README file is now included in the history of the
 new-feature branch.
+
 
 ## Step 5: Reverting
 
