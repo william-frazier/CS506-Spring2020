@@ -44,6 +44,13 @@ git checkout new-feature
 ```
 These commands updated your master branch with the change you made on GitHub
 and then moved you back to the new-feature branch.
+You could alternatively run
+```bash
+git fetch origin
+git rebase origin/master
+```
+
+
 
 ## Step 4: Rebase
 
@@ -57,7 +64,7 @@ git log
 ```
 Notice how many commits you see. Now run
 ```bash
-git rebase master
+git rebase origin/master
 ```
 This has made it so that the changes you made in the new-feature branch, effectively
 were built on the up-to-date code in master. You can verify this by again running
@@ -113,7 +120,7 @@ git commit -m "Subtract function"
 Now suppose you wanted to change some things about these commits. On the command
 line, run
 ```bash
-git rebase master -i
+git rebase origin/master -i
 ```
 This command should open your text editor. At the very top, you should see some
 lines which begin with the word "pick". These are the commits you have made. Go
@@ -141,8 +148,8 @@ undo what you just did and try the next command.
 
 ## Step 7: Finishing up
 
-When you have completed all of the above, try running
-```bash
-git push origin new-feature
-```
-This will let us know you have completed the exercise.
+When you have completed all of the above, create a pull request on the repository
+where your fork of this exercise is (you should have cloned it for exercise 1 and
+2). This pull request should include the line "finished exercise 3" to the end of
+the .txt file you pushed in the earlier exercises. This will let us know that
+you have completed all of the exercises.
