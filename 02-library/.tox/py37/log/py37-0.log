@@ -1,0 +1,8 @@
+action: py37, msg: getenv
+cwd: C:\Users\William\Desktop\BU\CS506\CS506-Spring2020\02-library\.tox
+cmd: 'c:\users\william\appdata\local\programs\python\python37-32\python.exe' -m virtualenv --no-download --python 'c:\users\william\appdata\local\programs\python\python37-32\python.exe' py37
+Already using interpreter c:\users\william\appdata\local\programs\python\python37-32\python.exe
+Using base prefix 'c:\\users\\william\\appdata\\local\\programs\\python\\python37-32'
+New python executable in C:\Users\William\Desktop\BU\CS506\CS506-Spring2020\02-library\.tox\py37\Scripts\python.exe
+Installing setuptools, pip, wheel...
+done.

@@ -1,0 +1,17 @@
+action: py37, msg: installpkg
+cwd: C:\Users\William\Desktop\BU\CS506\CS506-Spring2020\02-library
+cmd: 'C:\Users\William\Desktop\BU\CS506\CS506-Spring2020\02-library\.tox\py37\Scripts\python.EXE' -m pip install --no-deps -U '.tox\.tmp\package\1\cs506-0.0.1.zip'
+Processing c:\users\william\desktop\bu\cs506\cs506-spring2020\02-library\.tox\.tmp\package\1\cs506-0.0.1.zip
+Building wheels for collected packages: cs506
+  Building wheel for cs506 (setup.py): started
+  Building wheel for cs506 (setup.py): finished with status 'done'
+  Created wheel for cs506: filename=cs506-0.0.1-cp37-none-any.whl size=2302 sha256=234dec6e989ddeccb349fdf7d2794347a01ab74b75a1c836f7d9fbd0e74670b4
+  Stored in directory: C:\Users\William\AppData\Local\pip\Cache\wheels\3b\3a\cb\562e12e8ac733aa91fc25fce7b04d81886e2bde74f77eb0de8
+Successfully built cs506
+Installing collected packages: cs506
+  Found existing installation: cs506 0.0.1
+    Not uninstalling cs506 at c:\users\william\desktop\bu\cs506\cs506-spring2020\02-library, outside environment C:\Users\William\Desktop\BU\CS506\CS506-Spring2020\02-library\.tox\py37
+    Can't uninstall 'cs506'. No files were found to uninstall.
+Successfully installed cs506-0.0.1
+WARNING: You are using pip version 19.3.1; however, version 20.0.2 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
